@@ -20,7 +20,19 @@ VoiceMate AI is an interactive AI-powered voice assistant built with Python and 
 - **SpeechRecognition** – Speech-to-text conversion
 - **gTTS** – Text-to-speech generation
 - **python-dotenv** – Environment variable management
+## 📸 Screenshots
 
+### 🏠 Home Screen
+![Home Screen](screenshots/home.png)
+
+### 💬 Text Chat
+![Text Chat](screenshots/text-chat.png)
+
+### 🎤 Voice Input
+![Voice Input](screenshots/voice-input.png)
+
+### 🔊 Audio Response
+![Audio Response](screenshots/response_audio.png)
 ## 📂 Project Structure
 
 ```text
