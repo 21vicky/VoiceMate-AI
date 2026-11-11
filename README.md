@@ -11,6 +11,7 @@ VoiceMate AI is an interactive AI-powered voice assistant built with Python and 
 - ⌨️ **Text Input:** Communicate with the assistant through text.
 - 🎨 **Interactive UI:** Clean and user-friendly Streamlit interface.
 - 🔄 **Model Fallback:** Attempts alternative Gemini models when one is unavailable.
+- 🔁 **Retry Functionality:** Retry failed requests when Gemini is temporarily unavailable.
 
 ## 🛠️ Technologies Used
 
@@ -20,6 +21,7 @@ VoiceMate AI is an interactive AI-powered voice assistant built with Python and 
 - **SpeechRecognition** – Speech-to-text conversion
 - **gTTS** – Text-to-speech generation
 - **python-dotenv** – Environment variable management
+
 ## 📸 Screenshots
 
 ### 🏠 Home Screen
@@ -33,15 +35,23 @@ VoiceMate AI is an interactive AI-powered voice assistant built with Python and 
 
 ### 🔊 Audio Response
 ![Audio Response](screenshots/response_audio.png)
+
 ## 📂 Project Structure
 
 ```text
 VoiceMate-AI/
 │
+├── screenshots/
+│   ├── home.png
+│   ├── text-chat.png
+│   ├── voice-input.png
+│   └── response_audio.png
+│
 ├── app.py
 ├── requirements.txt
 ├── .gitignore
-└── README.md
+├── README.md
+└── .env (not uploaded)
 ```
 
 ## ⚙️ Installation & Setup
@@ -118,4 +128,4 @@ This project demonstrates practical implementation of Generative AI, speech reco
 
 ---
 
-⭐ If you find this project interesting, consider giving it a star!         
+⭐ If you find this project interesting, consider giving it a star!
